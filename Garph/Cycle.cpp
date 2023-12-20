@@ -1,19 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-
-struct Edge {
-  int u;
-  int v;
-};
-
-bool dfs(vector<vector<Edge>> &graph, int u, int parent, vector<bool> &visited) {
+int vertex,edges;
+bool dfs(vector<int> graph[], int u, int parent, vector<bool> &visited) {
   visited[u] = true;
-  for (Edge edge : graph[u]) {
-    if (!visited[edge.v]) {
-      if (dfs(graph, edge.v, u, visited)) {
+  for (int it : graph[u]) {
+    if (!visited[it]) {
+      if (dfs(graph, it, u, visited)) {
         return true;
       }
-    } else if (edge.v != parent) {
+    } else if (it != parent) {
       // Phát hiện chu kì
       return true;
     }
@@ -21,8 +16,8 @@ bool dfs(vector<vector<Edge>> &graph, int u, int parent, vector<bool> &visited) 
   return false;
 }
 
-bool hasCycle(vector<vector<Edge>> &graph) {
-  int n = graph.size();
+bool hasCycle(vector<int> graph[]) {
+  int n = vertex;
   vector<bool> visited(n, false);
   for (int i = 0; i < n; i++) {
     if (!visited[i]) {
@@ -35,14 +30,16 @@ bool hasCycle(vector<vector<Edge>> &graph) {
 }
 
 int main() {
-  int n = 5;
-  vector<vector<Edge>> graph(n);
-  graph[0].push_back({1, 2});
-  graph[1].push_back({0, 2});
-  graph[2].push_back({0, 1});
-  graph[3].push_back({2});
+    
+    cin >> vertex >> edges;
+    vector<int>adj[vertex];
+    for (int i=0;i<edges;i++){
+        int u,v;cin >> u >> v;
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
 
-  if (hasCycle(graph)) {
+  if (hasCycle(adj)) {
     cout << "Đồ thị có chu kì" << endl;
   } else {
     cout << "Đồ thị không có chu kì" << endl;
