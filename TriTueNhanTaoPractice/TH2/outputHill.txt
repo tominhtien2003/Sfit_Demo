@@ -1,0 +1,10 @@
+TT : A
+TTK : C D E 
+
+TT : D
+TTK : F I 
+
+TT : I
+TTK : B 
+
+Duong di can tim la : A D I B 

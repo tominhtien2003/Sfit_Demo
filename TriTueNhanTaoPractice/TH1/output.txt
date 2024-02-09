@@ -1,0 +1,9 @@
+TT : A
+TTK : BDCG
+TT : B
+TTK : IG
+TT : I
+TTK : G
+TT : G
+TTK : 
+Duong di tu Start den End : ABIG

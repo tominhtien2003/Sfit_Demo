@@ -1,0 +1,19 @@
+Start
+A
+End
+G
+Cac cap canh dinh lien ke : 
+A B
+A D
+A C
+B I
+I G
+B G
+C E
+D C
+D F
+C F
+F K
+E G
+E K
+A G

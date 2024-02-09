@@ -1,0 +1,119 @@
+TT : A
+TTK : C D E F 
+K : 9 7 13 20 
+H : 15 6 8 7 
+G : 9 7 13 20 
+F : 24 13 21 27 
+L1 (Hight to Low) : F C E D 
+L (Hight to Low) : F C E D 
+
+TT : F
+TTK : G I 
+K : 4 6 
+H : 12 4 
+G : 24 26 
+F : 36 30 
+L1 (Hight to Low) : G I 
+L (Hight to Low) : F C E G I 
+
+TT : C
+TTK : H 
+K : 6 
+H : 10 
+G : 15 
+F : 25 
+L1 (Hight to Low) : H 
+L (Hight to Low) : F C E G H 
+
+TT : E
+TTK : K I 
+K : 4 3 
+H : 2 4 
+G : 17 16 
+F : 19 20 
+L1 (Hight to Low) : I K 
+L (Hight to Low) : F C E G I K 
+
+TT : D
+TTK : E H 
+K : 4 8 
+H : 8 10 
+G : 11 15 
+F : 19 25 
+L1 (Hight to Low) : E 
+L (Hight to Low) : F C E G I E 
+
+TT : G
+TTK : 
+K : 
+H : 
+G : 
+F : 
+L1 (Hight to Low) : 
+L (Hight to Low) : F C E G I 
+
+TT : I
+TTK : B 
+K : 5 
+H : 0 
+G : 21 
+F : 21 
+L1 (Hight to Low) : 
+L (Hight to Low) : F C E G 
+
+TT : H
+TTK : 
+K : 
+H : 
+G : 
+F : 
+L1 (Hight to Low) : 
+L (Hight to Low) : F C E 
+
+TT : I
+TTK : B 
+K : 5 
+H : 0 
+G : 21 
+F : 21 
+L1 (Hight to Low) : 
+L (Hight to Low) : F C 
+
+TT : K
+TTK : B 
+K : 6 
+H : 0 
+G : 21 
+F : 21 
+L1 (Hight to Low) : 
+L (Hight to Low) : F 
+
+TT : E
+TTK : K I 
+K : 4 3 
+H : 2 4 
+G : 15 14 
+F : 17 18 
+L1 (Hight to Low) : I K 
+L (Hight to Low) : I K 
+
+TT : I
+TTK : B 
+K : 5 
+H : 0 
+G : 19 
+F : 19 
+L1 (Hight to Low) : 
+L (Hight to Low) : I 
+
+TT : K
+TTK : B 
+K : 6 
+H : 0 
+G : 19 
+F : 19 
+L1 (Hight to Low) : 
+L (Hight to Low) : 
+
+A D E I B 
+Gia tri toi uu la : 19
